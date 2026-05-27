@@ -206,6 +206,6 @@ ul.custom-bullets li::before
         transform: translateX(0);
         }
         100% {
-        transform: translateX(-900px);
+        transform: translateX(-1000px);
         }
         }

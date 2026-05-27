@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * 
   {
     margin: 0;
@@ -8,7 +9,7 @@
   
 body 
   {
-    font-family: "Papyrus", "Copperplate", fantasy, cursive;
+    font-family: "roboto, sans-serif;
     font-size: 17px;
     line-height: 1.7;
     background-color: #cfefff; 

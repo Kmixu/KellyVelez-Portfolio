@@ -217,5 +217,32 @@ ul.custom-bullets li::before
     gap: 0.5rem;
     grid-template-rows: repeat(5,1fr);
     grid-template-colums: repeat(8,1fr);
-    
+    grid-template-areas:
+      "••  two two   two  three four ••  ••"
+      "one two two   two  five five six ••  ••"
+  }
+.collage >div
+  {
+    overflow:hidden;
+    border-radius:0.5rem;
+  }
+.collage img
+  {
+    width:100%;
+    aspect-ratio:1;
+    display:block;
+    object-fit:cover;
+
+  }
+.collage :nth-child(1)
+  {
+    grid-area:one;
+  }
+.collage :nth-child(2)
+  {
+    grid-area:two;
+  }
+.collage :nth-child(3)
+  {
+    grid-area:three;
   }

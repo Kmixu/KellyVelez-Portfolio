@@ -208,4 +208,14 @@ ul.custom-bullets li::before
         100% {
         transform: translateX(-1000px);
         }
-        }
+
+.collage
+  {
+    max-width:800px;
+    margin-inline: auto;
+    display:grid;
+    gap: 0.5rem;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-colums: repeat(8,1fr);
+    
+  }

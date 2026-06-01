@@ -211,7 +211,7 @@ ul.custom-bullets li::before
 
 .collage
   {
-    max-width:800px;
+    max-width:600px;
     margin-inline: auto;
     display:grid;
     gap: 0.5rem;

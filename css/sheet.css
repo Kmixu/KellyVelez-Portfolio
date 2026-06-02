@@ -171,8 +171,7 @@ ul.custom-bullets li::before
  {
     overflow: hidden;
     width: 100%;
-    max-width: 1200px;
-   height:700px;
+    max-width: 100%;
     border: 3px solid #77b5d9;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -188,14 +187,14 @@ ul.custom-bullets li::before
 .slide-track 
   {
     display: flex;
-    width: calc(300px * 6); 
+    width: calc(300px * 10); 
     animation: scroll 20s linear infinite;
   }
   
 .slide 
   {
-    width: 300px;
-    height: 200px;
+    width: 1200px;
+    height: 700px;
     object-fit: cover;
     border-right: 5px solid #eae3e3;
   }

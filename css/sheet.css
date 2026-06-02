@@ -213,7 +213,7 @@ ul.custom-bullets li::before
   {
     max-width:800px;
     margin-inline: auto;
-    display:grid;
+    display: grid;
     gap: 0.5rem;
     grid-template-rows: repeat(5,1fr);
     grid-template-colums: repeat(8,1fr);
@@ -232,7 +232,7 @@ ul.custom-bullets li::before
 .collage img
   {
     width:100%;
-    heigh:800px;
+    
     aspect-ratio:1;
     display:block;
     object-fit:cover;

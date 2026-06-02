@@ -187,8 +187,8 @@ ul.custom-bullets li::before
 .slide-track 
   {
     display: flex;
-    width: calc(300px * 2); 
-    animation: scroll 20s linear infinite;
+    width: calc(300px * 12); 
+    animation: scroll 5s linear infinite;
   }
   
 .slide 

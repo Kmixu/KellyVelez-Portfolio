@@ -208,7 +208,7 @@ ul.custom-bullets li::before
         100% {
         transform: translateX(-1000px);
         }
-
+/* collage */
 .collage
   {
     max-width:800px;
@@ -232,6 +232,7 @@ ul.custom-bullets li::before
 .collage img
   {
     width:100%;
+    heigh:800px;
     aspect-ratio:1;
     display:block;
     object-fit:cover;

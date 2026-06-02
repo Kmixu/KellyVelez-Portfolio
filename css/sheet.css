@@ -171,7 +171,8 @@ ul.custom-bullets li::before
  {
     overflow: hidden;
     width: 100%;
-    max-width: 100%;
+    max-width: 1200px;
+   height:700px;
     border: 3px solid #77b5d9;
     border-radius: 15px;
     margin-bottom: 30px;

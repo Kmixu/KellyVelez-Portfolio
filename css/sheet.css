@@ -208,6 +208,15 @@ ul.custom-bullets li::before
         100% {
         transform: translateX(-1000px);
         }
+/* grid */
+.grid 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1440px;
+    height: 618px;
+}
 /* collage */
 .collage
   {

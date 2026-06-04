@@ -209,14 +209,70 @@ ul.custom-bullets li::before
         transform: translateX(-1000px);
         }
 /* grid */
-.grid 
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 1440px;
-    height: 618px;
-}
+.grid
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 1440px;
+        height: 618px;
+    }
+.griditem
+    {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #000;
+        width: 20%;
+    }
+.grid-item1
+    {
+        background-image: url("../images/project1.jpg");
+    }
+.grid-item2
+    {
+        background-image: url("../images/photo_2.jpg");
+    }
+.grid-item3
+    {
+        background-image: url("../images/photo_3.jpg");
+    }
+.grid-item4
+    {
+        background-image: url("../images/photo_4.jpg");
+    }
+.grid-item5
+    {
+        background-image: url("../images/photo_5.jpg");
+    }
+.grid-item6
+    {
+        background-image: url("../images/photo_6.jpg");
+    }
+.grid-item7
+    {
+        background-image: url("../images/photo_7.jpg");
+    }
+.grid-item8
+    {
+        background-image: url("../images/photo_8.jpg");
+    }
+.grid-item9
+    {
+        background-image: url("../images/photo_9.jpg");
+    }
+.grid-item10
+    {
+        background-image: url("../images/photo_10.jpg");
+    }
+.grid-item11
+    {
+        background-image: url("../images/photo_11.jpg");
+    }
+.grid-item12
+    {
+        background-image: url("../images/photo_12.jpg");
+    }
 /* collage */
 .collage
   {

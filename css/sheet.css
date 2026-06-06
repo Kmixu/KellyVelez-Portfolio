@@ -187,14 +187,14 @@ ul.custom-bullets li::before
 .slide-track 
   {
     display: flex;
-    width: calc(400px * 8); 
+    width: calc(200px * 8); 
     animation: scroll 30s linear infinite;
   }
   
 .slide 
   {
-    width: 1200px;
-    height: 700px;
+    width: 1000px;
+    height: 300px;
     object-fit: cover;
     border-right: 5px solid #eae3e3;
   }
@@ -209,81 +209,4 @@ ul.custom-bullets li::before
         transform: translateX(-1000px);
         }
 
-/* collage */
-.collage
-  {
-    max-width:800px;
-    margin-inline: auto;
-    display: grid;
-    gap: 0.5rem;
-    grid-template-rows: repeat(5,1fr);
-    grid-template-colums: repeat(8,1fr);
-    grid-template-areas:
-      "••  two two   two  three fourt ••  ••"
-      "one two two   two  five  five six   ••"
-      "••  two two   two  five  five sevent eight"
-    "nine ten eleven eleven twelve ••  ••  ••"
-    "••   ••  eleven eleven ••   ••   ••   ••"
-  }
-.collage >div
-  {
-    overflow:hidden;
-    border-radius:0.5rem;
-  }
-.collage img
-  {
-    width:100%;
-    
-    aspect-ratio:1;
-    display:block;
-    object-fit:cover;
 
-  }
-.collage > div:nth-child(1)
-  {
-    grid-area:one;
-  }
-.collage > div:nth-child(2)
-  {
-    grid-area:two;
-  }
-.collage > div:nth-child(3)
-  {
-    grid-area:three;
-  }
-.collage > div:nth-child(4)
-  {
-    grid-area:fourt;
-  }
-.collage > div:nth-child(5)
-  {
-    grid-area:five;
-  }
-.collage > div:nth-child(6)
-  {
-    grid-area:six;
-  }
-.collage > div:nth-child(7)
-  {
-    grid-area:sevent;
-  }
-.collage > div:nth-child(8)
-  {
-    grid-area:eight;
-  }
-.collage > div:nth-child(9)
-  {
-    grid-area:nine;
-  }
-.collage > div:nth-child(10)
-  {
-    grid-area:ten;
-  }
-.collage > div:nth-child(11)
-  {
-    grid-area:eleven;
-  }
-.collage > div:nth-child(12)
-  {
-    grid-area:twelve;
-  }
